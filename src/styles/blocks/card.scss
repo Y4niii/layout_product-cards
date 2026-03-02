@@ -15,7 +15,7 @@ p {
 .card {
   width: $card-width;
   box-sizing: border-box;
-  border: 1px solid $color-white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   background-color: $color-white;
 
@@ -78,6 +78,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 
     width: 166px;
     height: 40px;
